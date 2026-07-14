@@ -37,4 +37,5 @@ This repository contains the Jupyter notebook used to carry out the full analysi
 ## Data source
 
 The dataset used in this project is PaySim, a synthetic financial dataset available on Kaggle, created to simulate mobile money transactions based on a real, anonymised sample of transaction logs from a mobile financial service operating in an African country. Because the dataset is synthetic, the absolute number of fraud cases and their exact characteristics should not be interpreted as representing real world fraud rates, although the overall structure, class imbalance, and behavioural patterns are designed to closely resemble genuine transaction data.
+
 https://www.kaggle.com/datasets/ealaxi/paysim1
