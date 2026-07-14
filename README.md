@@ -4,7 +4,7 @@
 
 This project builds a machine learning classifier to detect fraudulent transactions on a simulated mobile money platform. It was developed as a live-build data science assessment, with the objective of producing not just a working model, but an honestly evaluated one, together with a clear explanation of which features are trustworthy to use and why. The dataset used is PaySim, a synthetic dataset designed to resemble real mobile money transaction logs from a financial service operating across several African countries. Because financial transaction data is inherently private, PaySim was created as a way to make a realistic, shareable dataset available for fraud detection research without exposing any real customer information.
 
-## The problem being solved
+## The problem 
 
 Mobile money platforms process an enormous number of transactions, and only a very small fraction of them are fraudulent. In this dataset, fraud accounts for roughly 0.13% of all transactions, which means a model cannot be judged on accuracy alone. A model that simply predicted not fraud for every single transaction would be correct 99.87% of the time while being completely useless in practice, since it would never catch a single real case of fraud. The real objective of this project was therefore to build a model that could usefully flag suspicious transactions for human review, while being upfront about the trade-off between catching more fraud and generating false alarms.
 
