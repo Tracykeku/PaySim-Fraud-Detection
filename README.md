@@ -1,5 +1,4 @@
 # PaySim-Fraud-Detection
-# PaySim Fraud Detection
 
 ## Overview
 
